@@ -1,0 +1,10 @@
+{% if list %}
+<h1>Person Details! </h1>
+<ul>
+    {% for person in list %}
+    <li><a href="{% url 'genericviews:details', person.id %}"> {{ person.name }}</a> </li>
+    {% end for %}
+</ul>
+{% else %}
+<h3> No person found.</h3>
+{% endif %}
