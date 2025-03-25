@@ -1,2 +1,2 @@
-# Django-Demo-models
- This is a django demo model just to explain how to learn django
+# Django-Demo-modules
+ This is a django demo modules just to explain how to learn django
